@@ -21,4 +21,4 @@ Run this command after downloading: ollama pull llama3
 
 Run all cells in the  langgraph_rag_agent_llama3_local.ipynb.
 
-5. Modify the prompts and questions in the langgraph_rag_agent_llama3_local.ipynb to experiment with your local RAG agent and fit your specific use case.
+4. Modify the prompts and questions in the langgraph_rag_agent_llama3_local.ipynb to experiment with your local RAG agent and fit your specific use case.
