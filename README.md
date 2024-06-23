@@ -1,10 +1,11 @@
 # RAGInABox
-A Docker-packaged RAG agent that runs locally on your machine. Transforms your personal knowledge base into a vectorstore for contextually relevant responses. All data stays private and secure on your machine.
+A RAG agent that runs locally on your machine. Transforms your personal knowledge base into a vectorstore for contextually relevant responses. All data stays private and secure on your machine.
 
 To create your own RAG agent, follow the steps below:
 1. Add your documents to the documents folder. The documents must be .txt files. Check the process_documents directory for tools to process documents from different sources into a standard .txt file format.
 
-2. Create a config.py file with the lines below and replace <your_api_key> with your apo key for LangChain and Tavily
+2. Create a config.py file with the lines below and replace <your_api_key> with your api key for LangChain and Tavily
+
 # config.py
 
 LANGCHAIN_API_KEY = "<your_api_key>"
